@@ -3574,7 +3574,7 @@ async def g_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # 隨機選取語錄
     quote = random.choice(QUOTES)
     # 回覆訊息，格式為 "激勵小肛金句: " + 語錄
-    await update.message.reply_text("激勵小肛金句: " + quote)
+    await update.message.reply_text("激勵小肛金句: \n" + quote)
 
 # 主程式
 if __name__ == '__main__':
@@ -3588,3 +3588,4 @@ if __name__ == '__main__':
     
     # 開始 polling（監聽訊息）
     app.run_polling(poll_interval=3, timeout=10)
+
