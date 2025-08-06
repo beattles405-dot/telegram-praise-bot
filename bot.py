@@ -3,7 +3,7 @@ from telegram.ext import Application, CommandHandler, ContextTypes
 import random
 
 # Bot Token (已代入您的 Token)
-TOKEN = '8438642046:AAFPdQLePP7DSaMbW-ROgh8JYK3ZM4ONNP8'
+TOKEN = '8300651213:AAHL9hkCD2BfUAMBaFKW5XK_RZ59iY4Do98'
 
 # 勵志語錄陣列（原 100 個語錄，繁體中文，聚焦人生勵志）
 QUOTES = [
@@ -3594,6 +3594,7 @@ if __name__ == '__main__':
     
     # 開始 polling（監聽訊息）
     app.run_polling(poll_interval=3, timeout=10)
+
 
 
 
